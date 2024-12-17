@@ -73,7 +73,7 @@ bool invert_matrix(double* A, double* Ainv, int N) {
 }
 
 int main() {
-    int N = 1000; // Размер матрицы
+    int N = 2000; // Размер матрицы
     std::vector<double> A(N*N), Ainv(N*N);
 
     // Инициализируем матрицу случайными значениями
